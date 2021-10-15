@@ -17,7 +17,7 @@ class Rope {
 
   fly() {
     this.rope.bodyA = null;
-    strokeWeight(0);
+    
   }
 
   display() {
@@ -27,7 +27,7 @@ class Rope {
       push();
 
       stroke(48, 22, 8);
-      strokeWeight(4);
+      strokeWeight(0);
 
       line(pointB.x, pointB.y, pointA.x, pointA.y);
 
